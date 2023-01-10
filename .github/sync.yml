@@ -1,0 +1,7 @@
+rym3002/rym:
+  - source: jd_fruit.js
+    dest: src/jd/fruit/index.js 
+  - source: jd_plantBean.js
+    dest: src/jd/plantBean/index.js
+  - source: schedule.yaml
+    dest: .github/workflows/schedule.yaml
