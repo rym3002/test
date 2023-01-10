@@ -12,7 +12,7 @@ jobs:
         with:
           source_repo: "https://${{ secrets.PAT2 }}@github.com/jinboyigu/lazy_script.git"
           source_branch: "master"
-          destination_repo: "https://${{ secrets.PAT2 }}@github.com/wheatwee/scf.git"
+          destination_repo: "https://${{ secrets.PAT2 }}@github.com/rym3002/rym.git"
           destination_branch: "main"
       
       - name: Checkout rym
