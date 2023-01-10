@@ -1,4 +1,4 @@
-name: Sync lazy to scf(同步文件)
+name: Sync lazy and fix(同步并修正)
 on:
   workflow_dispatch:
 jobs:
