@@ -3,7 +3,9 @@ rym3002/rym:
     dest: src/jd/fruit/index.js 
   - source: jd_plantBean.js
     dest: src/jd/plantBean/index.js
-    
-whearwee/scf:
+  - source: schedule.yaml
+    dest: .github/workflows/schedule.yaml
+
+wheatwee/scf:
   - source: schedule_for_scf.yaml
     dest: .github/workflows/schedule.yaml
